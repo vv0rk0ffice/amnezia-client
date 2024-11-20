@@ -1,6 +1,10 @@
 name: 'Deploy workflow'
 
 on:
+  workflow_dispatch:
+  # push:
+  # tags:
+  #   - **
   push:
     branches:
       - '**'
